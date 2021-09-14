@@ -1,0 +1,31 @@
+body {
+  background: #141218;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.menu-list {
+  margin-right: auto;
+  margin-left: 68px;
+}
+
+.menu-link {
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+  text-decoration: none;
+  margin-right: 24px;
+}
+.social-link {
+  margin-left: 20px;
+}
