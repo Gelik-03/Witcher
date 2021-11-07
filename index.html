@@ -5,6 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
 	
 	<title>The Witcher original series</title>
 </head>
@@ -53,7 +55,7 @@
 				<h1 class="main-title">Ведьмак</h1>
 
             <!-- Начало костыльной работы-->
-				<div class="new">
+			<div class="new">
 					<div class="new-new">
 				<p class="main-description"> 
 						Ведьмак Геральт, мутант и убийца чудовищ,
@@ -73,17 +75,48 @@
 			</div>
 			<!-- Конец костыльной работы-->
 			
-			<div class="series">
-				<div class="card series-1">
+
+
+
+
+			<div class="swiper">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+				  <!-- Slides -->
+				  <div class="swiper-slide"><div class="card series-1">
 					<span class="card-subtitle">Серия 1</span>
 					<h3 class="card-title">Начало конца</h3>
 				</div>
-
-				<div class="card series-2">
+			</div>
+				  <div class="swiper-slide"><div class="card series-2">
 					<span class="card-subtitle">Серия 2</span>
 					<h3 class="card-title">Четыри знака</h3>
 				</div>
+			</div>
+				  <div class="swiper-slide"><div class="card series-3">
+					<span class="card-subtitle">Серия 2</span>
+					<h3 class="card-title">Четыри знака</h3>
+				</div>
+			</div>
+				  ...
+				</div>		 
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-next"></div>
+
+			 </div>
+
+
+
+
+
+
+
+
+
+<!-- /.container 
+			<div class="series">
 				
+
 			<div class="navigation">
 				<button class="arrow"></button>
 			</div>
@@ -91,6 +124,7 @@
 
 			
 		</div>
+		-->
 		<!-- /.container -->
 
 
@@ -111,5 +145,7 @@
 			</div>
 		</div>
 	</footer>
+	<script src="../Witcher/js/main.js"></script>
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </body>
 </html>
