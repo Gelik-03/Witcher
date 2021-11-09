@@ -119,6 +119,7 @@ body {
 .play-img {
   position: relative;
   transform: translateX(5px);
+  cursor: pointer;
 }
 .play {
   background-color: #9d2929;

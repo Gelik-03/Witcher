@@ -13,7 +13,7 @@ var mySwiper = new Swiper ('.swiper-container', {
 			  slidesPerView: 1,
 			  slidesOffsetAfter: 50,
 			  navigation: {
-					nextEl: ('.button-next'),
+					nextEl: ('swiper.button-next'),
 			  },
 		 },
 	},
